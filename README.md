@@ -17,7 +17,7 @@ For convenience, the 3 files required for training, cross-validation and test ar
 - **extract_traffic_types.py**: read csv files and create one parquet files for each traffic type. In total 15 files 
 are generated (1 benign and 14 attacks).
 - **create_datasets.py**: read the 15 files generated in previous step and create parquet files for training, 
-cross-validation and test in a new folder
+cross-validation and test in a new folder.
 - **deep_learning.py**: deep learning library.
 - **mlp4nids.py**: main program to train neural network and get performances. Don't forget to update path to the 
 generated parquet files.
