@@ -139,7 +139,7 @@ tornado=6.0.3=py37h7b6447c_0
 traitlets=4.3.2=py37_0
 wcwidth=0.1.7=py37_0
 webencodings=0.5.1=py37_1
-werkzeug=0.14.1=py37_0
+werkzeug=0.15.5=py_0
 wheel=0.33.4=py37_0
 widgetsnbextension=3.5.1=py37_0
 wrapt=1.11.2=py37h7b6447c_0
