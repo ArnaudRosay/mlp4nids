@@ -15,15 +15,15 @@ but can be regenerated from the csv files using python programs.
 
 ## Files
 - **extract_traffic_types.py**: read csv files and create one parquet files for each traffic type. In total 15 files 
-are generated (1 benign and 14 attacks)
+are generated (1 benign and 14 attacks).
 - **create_datasets.py**: read the 15 files generated in previous step and create parquet files for training, 
-cross-validation and test
-- **deep_learning.py**: deep learning library
-- **mlp4nids.py**: main program to train neural network and get performances
-- **requirements.txt**: list of python packages to reproduce the environment with all dependencies
+cross-validation and test.
+- **deep_learning.py**: deep learning library.
+- **mlp4nids.py**: main program to train neural network and get performances.
+- **requirements.txt**: list of python packages to reproduce the environment with all dependencies.
 
 ## Environment
 This project has been developed using python 3.7 and TensorFlow-1.14.<br>
 All packages required to run this project are listed in requirements.txt and shall be installed in your python
-environment
+environment.
 
