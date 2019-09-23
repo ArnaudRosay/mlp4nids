@@ -10,16 +10,17 @@ This project demonstrates neural network performances for intrusion detection on
 Dataset can be retrieved from University of New Brunswick - Canadian Institure for Cybersecurity: 
 [click here](https://www.unb.ca/cic/datasets/ids-2017.html) <br>
 CSV files shall be located in ./cicids2017/csv_files/ (unless you change path in source files). <br>
-For convenience, the 3 files required for training, cross-validation and test are provided in ./cicids2017/datasets/ 
-but can be regenerated from the csv files using python programs.
+For convenience, the 3 files required for training, cross-validation and test are provided in 
+./cicids2017/datasets/ids2017-run-20190910154834/ but can be regenerated from the csv files using python programs.
 
 ## Files
 - **extract_traffic_types.py**: read csv files and create one parquet files for each traffic type. In total 15 files 
 are generated (1 benign and 14 attacks).
 - **create_datasets.py**: read the 15 files generated in previous step and create parquet files for training, 
-cross-validation and test.
+cross-validation and test in a new folder
 - **deep_learning.py**: deep learning library.
-- **mlp4nids.py**: main program to train neural network and get performances.
+- **mlp4nids.py**: main program to train neural network and get performances. Don't forget to update path to the 
+generated parquet files.
 - **requirements.txt**: list of python packages to reproduce the environment with all dependencies.
 
 ## Environment
