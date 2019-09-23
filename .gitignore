@@ -2,3 +2,27 @@ __pycache__/
 ckpt_dir/
 tf_logs/
 
+/cicids2017/csv_files/Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv
+/cicids2017/csv_files/Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv
+/cicids2017/csv_files/Friday-WorkingHours-Morning.pcap_ISCX.csv
+/cicids2017/csv_files/Monday-WorkingHours.pcap_ISCX.csv
+/cicids2017/csv_files/Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv
+/cicids2017/csv_files/Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv
+/cicids2017/csv_files/Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX_clean.csv
+/cicids2017/csv_files/Tuesday-WorkingHours.pcap_ISCX.csv
+/cicids2017/csv_files/Wednesday-workingHours.pcap_ISCX.csv
+/cicids2017/traffic_types/BENIGN.parquet
+/cicids2017/traffic_types/Bot.parquet
+/cicids2017/traffic_types/DDoS.parquet
+/cicids2017/traffic_types/DoS GoldenEye.parquet
+/cicids2017/traffic_types/DoS Hulk.parquet
+/cicids2017/traffic_types/DoS Slowhttptest.parquet
+/cicids2017/traffic_types/DoS slowloris.parquet
+/cicids2017/traffic_types/FTP-Patator.parquet
+/cicids2017/traffic_types/Heartbleed.parquet
+/cicids2017/traffic_types/Infiltration.parquet
+/cicids2017/traffic_types/PortScan.parquet
+/cicids2017/traffic_types/SSH-Patator.parquet
+/cicids2017/traffic_types/Web Attack Brute Force.parquet
+/cicids2017/traffic_types/Web Attack Sql Injection.parquet
+/cicids2017/traffic_types/Web Attack XSS.parquet
