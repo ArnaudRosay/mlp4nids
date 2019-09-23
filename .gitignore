@@ -1,7 +1,7 @@
 __pycache__/
 ckpt_dir/
 tf_logs/
-
+.idea/
 /cicids2017/csv_files/Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv
 /cicids2017/csv_files/Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv
 /cicids2017/csv_files/Friday-WorkingHours-Morning.pcap_ISCX.csv
