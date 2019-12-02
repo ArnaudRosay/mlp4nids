@@ -1,8 +1,6 @@
 # mlp4nids
 Multi-layer perceptron for network intrusion detection 
 
-##### Coming Soon - All files will be available in October
-
 ## Objectives
 This project demonstrates neural network performances for intrusion detection on a recent dataset.
 
